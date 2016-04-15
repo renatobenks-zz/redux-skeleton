@@ -1,7 +1,7 @@
 {
-  "name": "react-production-starter",
+  "name": "redux-skeleton",
   "version": "1.0.0",
-  "description": "Isomorphic React Starter with Redux, React Router, Redial, CSS Modules, Express, Webpack.",
+  "description": "Isomorphic Redux skeleton with React, React Router, Redial, CSS Modules, Express, Webpack.",
   "main": "index.js",
   "scripts": {
     "test": "npm run clean && npm run build && cross-env NODE_ENV=test ./node_modules/mocha/bin/mocha --compilers js:babel-core/register --recursive",
@@ -13,15 +13,37 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaredpalmer/react-production-starter.git"
+    "url": "git+https://github.com/Coderockr/redux-skeleton.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Redux",
+    "React",
+    "Skeleton",
+    "Boilerplate"
+  ],
+  "author": "Coderockr",
+  "contributors": [
+    {
+      "name": "Elton Minetto",
+      "email": "eminetto@coderockr.com",
+      "url": "http://eltonminetto.net/"
+    },
+    {
+      "name": "Raony Marcondes",
+      "email": "raony@coderockr.com",
+      "url": "http://fb.com/raonymarcondes"
+    },
+    {
+      "name": "Vinicius Dacal",
+      "email": "vinicius@coderockr.com",
+      "url": "http://viniciusdacal.com/"
+    }
+  ],
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaredpalmer/react-production-starter/issues"
+    "url": "https://github.com/Coderockr/redux-skeleton/issues"
   },
-  "homepage": "https://github.com/jaredpalmer/react-production-starter#readme",
+  "homepage": "https://github.com/Coderockr/redux-skeleton/issues#readme",
   "dependencies": {
     "aphrodite": "^0.1.2",
     "assets-webpack-plugin": "^3.3.0",
@@ -60,8 +82,8 @@
     "react-redux": "^4.4.0",
     "react-router": "^2.0.0",
     "redial": "^0.4.1",
-    "redux": "^3.3.1",
-    "redux-devtools": "3.4.0"
+    "redux": "^3.4.0",
+    "redux-devtools": "3.2.0",
     "redux-mock-store": "0.0.6",
     "redux-thunk": "^1.0.3",
     "superagent": "^1.7.2",

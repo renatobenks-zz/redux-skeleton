@@ -12,19 +12,13 @@ const App = ({ children }) => {
           titleTemplate="%s - React Production Starter"
         />
         <h1 className={css(styles.title)}>
-          React
-          Production
-          Starter
+          Redux Skeleton
         </h1>
         <Nav/>
       {children}
       <footer className={css(styles.footer)}>
-        Copyright © 2016 <a className={css(styles.footerLink)}
-          href="http://twitter.com/jaredpalmer"
-          target="_blank">
-          Jared Palmer
-        </a>
-        </footer>
+        Copyright © 2016
+      </footer>
     </div>
   );
 };
@@ -37,18 +31,13 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#000',
-    maxWidth: 300,
+    maxWidth: 500,
     fontSize: 56,
   },
   footer: {
     margin: '4rem auto',
     textAlign: 'center',
     color: '#b7b7b7',
-  },
-  footerLink: {
-    display: 'inline-block',
-    color: '#000',
-    textDecoration: 'none',
   },
 });
 
